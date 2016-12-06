@@ -84,7 +84,7 @@ public class FSImage implements Closeable {
 
   protected FSEditLog editLog = null;
   private boolean isUpgradeFinalized = false;
-
+  /* NNStorage负责管理NameNode使用的StorageDirectories*/
   protected NNStorage storage;
   
   /**

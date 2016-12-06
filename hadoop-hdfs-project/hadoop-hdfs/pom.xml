@@ -222,6 +222,10 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
       <artifactId>bcprov-jdk16</artifactId>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.apache.hadoop</groupId>
+          <artifactId>hadoop-hdfs</artifactId>
+      </dependency>
   </dependencies>
 
   <build>
